@@ -1,0 +1,52 @@
+// let a = 5
+// let b = 10
+// console.log(a + b);
+// console.log(a ** b);
+// console.log(a++);
+// b--
+// console.log(b);
+// console.log(a % b);
+// let myVariable = 2
+// myVariable += 2
+// console.log(myVariable);
+// console.log(a > b);
+// console.log(a < b)
+// console.log(a => b)
+// console.log(a >= b)
+// console.log(a == 6)
+// console.log(a == "6") //igualdad por valor
+// console.log(a == a)
+// console.log(a === a)  //igualdad por identidad (por tipo y valor)
+// console.log(a === 6)
+// console.log(a === "6")
+// console.log(a != 6)
+// console.log(a !== "6")
+// console.log(0 == false);
+// console.log(1 == false);
+// console.log(0 == "");
+// console.log(undefined == null);
+// console.log(undefined === null);
+// console.log(10);
+
+
+// and
+console.log( 5 > 10 && 15 > 20)
+console.log( 5 < 10 && 15 < 20)
+console.log( 5 < 10 && 15 > 20)
+console.log( 5 < 10 && 15 > 20 && 30 > 40)
+
+// or
+console.log( 5 > 10 || 15 > 20)
+console.log( 5 < 10 || 15 < 20)
+console.log( 5 < 10 || 15 > 20)
+console.log( 5 > 10 || 15 > 20 || 30 > 40)
+
+console.log( 5 < 10 && 15 > 20 || 30 < 40)
+
+// not (!)
+
+console.log(!( 5 > 10 && 15 > 20))
+console.log(!( 5 > 10 || 15 > 20))
+
+const isRaining = true
+isRaining ? console.log("esta lloviendo") : console.log("no esta lloviendo");
