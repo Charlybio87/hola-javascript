@@ -11,43 +11,44 @@
 // }
 
 // while
-let i = 0;
-while (i < 6) {
-    console.log((i+1)+ `. Hola ${i}`);
-    i++;
-}
+// let i = 0;
+// while (i < 6) {
+//     console.log((i+1)+ `. Hola ${i}`);
+//     i++;
+// }
+
 // do while
-i = 7;
-do {
-    console.log((i+1)+ `. Hola ${i}`);
-    i++;
-} while (i < 6);
+// i = 0;
+// do {
+//     console.log((i+1)+ `. Hola ${i}`);
+//     i++;
+// } while (i < 6);
 
 // for of
 
-myArray = [1,2,3,4]
+// myArray = [1,2,3,4]
 
-mySet = new Set("carlos","alberto","ribas",37,"carlos@look.com")
+// mySet = new Set(["carlos","alberto","ribas",37,"carlos@look.com"])
 
-myMap = new Map([
-    ["name","Charly"],
-    ["email","charlybio87@outlook.com"],
-    ["age", 25],
-])
-myString = "Hola, JavaScript!"
+// myMap = new Map([
+//     ["name","Charly"],
+//     ["email","charlybio87@outlook.com"],
+//     ["age", 25],
+// ])
+// myString = "Hola, JavaScript!"
 
-for (let valor of myArray) {
-    console.log(valor);
-}
-for (let valor of mySet) {
-    console.log(valor);
-}
-for (let valor of myMap) {
-    console.log(valor);
-}
-for (let valor of myString) {
-    console.log(valor);
-}
+// for (let valor of myArray) {
+//     console.log(valor);
+// }
+// for (let valor of mySet) {
+//     console.log(valor);
+// }
+// for (let valor of myMap) {
+//     console.log(valor);
+// }
+// for (let valor of myString) {
+//     console.log(valor);
+// }
 
 // break y continue
 for (let i = 0; i < 10; i++) {
